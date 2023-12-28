@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Social Media Marketing Agency</title>
+</head>
+<body>
+
+    <header>
+        <h1>Your Social Media Marketing Agency</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Our Agency!</h2>
+        <p>Your go-to partner for effective social media marketing solutions.</p>
+        <a href="#contact" class="cta-button">Contact Us</a>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Learn about our talented team and our commitment to delivering exceptional results.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>We offer a range of services to boost your online presence and engage with your audience.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <p>Check out some of our successful social media campaigns.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Get in touch with us to discuss how we can elevate your social media presence.</p>
+        <form action="submit_form.php" method="post">
+            <!-- Include form fields here -->
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Your Social Media Marketing Agency. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
